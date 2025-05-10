@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Houseplants | GreenThumb</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">GreenThumb</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="container">
+                <h2>Our Plant Collection</h2>
+                
+                <div class="category">
+                    <h3>Low Light Plants</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <img src="images/snake-plant.jpg" alt="Snake Plant">
+                            <h4>Snake Plant</h4>
+                            <p>Hardy plant that thrives in low light and purifies air.</p>
+                            <p class="price">$24.99</p>
+                            <button class="add-to-cart" data-id="1" data-name="Snake Plant" data-price="24.99" data-image="images/snake-plant.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/zz-plant.jpeg" alt="ZZ Plant">
+                            <h4>ZZ Plant</h4>
+                            <p>Drought-tolerant with glossy green leaves.</p>
+                            <p class="price">$29.99</p>
+                            <button class="add-to-cart" data-id="2" data-name="ZZ Plant" data-price="29.99" data-image="images/zz-plant.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/pothos.jpeg" alt="Golden Pothos">
+                            <h4>Golden Pothos</h4>
+                            <p>Trailing vine perfect for shelves or hanging baskets.</p>
+                            <p class="price">$19.99</p>
+                            <button class="add-to-cart" data-id="3" data-name="Golden Pothos" data-price="19.99" data-image="images/pothos.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/peace-lily.jpg" alt="Peace Lily">
+                            <h4>Peace Lily</h4>
+                            <p>Elegant white blooms and air-purifying qualities.</p>
+                            <p class="price">$34.99</p>
+                            <button class="add-to-cart" data-id="4" data-name="Peace Lily" data-price="34.99" data-image="images/peace-lily.jpg">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category">
+                    <h3>Bright Light Plants</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <img src="images/fiddle-leaf.jpeg" alt="Fiddle Leaf Fig">
+                            <h4>Fiddle Leaf Fig</h4>
+                            <p>Trendy tree with large, violin-shaped leaves.</p>
+                            <p class="price">$49.99</p>
+                            <button class="add-to-cart" data-id="5" data-name="Fiddle Leaf Fig" data-price="49.99" data-image="images/fiddle-leaf.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/rubber-plant.jpeg" alt="Rubber Plant">
+                            <h4>Rubber Plant</h4>
+                            <p>Sturdy plant with dark, glossy leaves.</p>
+                            <p class="price">$39.99</p>
+                            <button class="add-to-cart" data-id="6" data-name="Rubber Plant" data-price="39.99" data-image="images/rubber-plant.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/bird-of-paradise.jpg" alt="Bird of Paradise">
+                            <h4>Bird of Paradise</h4>
+                            <p>Tropical plant with dramatic foliage.</p>
+                            <p class="price">$59.99</p>
+                            <button class="add-to-cart" data-id="7" data-name="Bird of Paradise" data-price="59.99" data-image="images/bird-of-paradise.jpg">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category">
+                    <h3>Succulents & Cacti</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <img src="images/echeveria.jpg" alt="Echeveria">
+                            <h4>Echeveria</h4>
+                            <p>Rosette-shaped succulent in beautiful colors.</p>
+                            <p class="price">$14.99</p>
+                            <button class="add-to-cart" data-id="8" data-name="Echeveria" data-price="14.99" data-image="images/echeveria.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/peace-lily.jpg" alt="Aloe Vera">
+                            <h4>Aloe Vera</h4>
+                            <p>Healing plant that's easy to care for.</p>
+                            <p class="price">$16.99</p>
+                            <button class="add-to-cart" data-id="9" data-name="Aloe Vera" data-price="16.99" data-image="images/aloe-vera.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/bird-of-paradise.jpg" alt="Bunny Ears Cactus">
+                            <h4>Bunny Ears Cactus</h4>
+                            <p>Adorable cactus with pad-like stems.</p>
+                            <p class="price">$12.99</p>
+                            <button class="add-to-cart" data-id="10" data-name="Bunny Ears Cactus" data-price="12.99" data-image="images/bunny-ears-cactus.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/pothos.jpeg" alt="String of Pearls">
+                            <h4>String of Pearls</h4>
+                            <p>Unique trailing succulent with bead-like leaves.</p>
+                            <p class="price">$22.99</p>
+                            <button class="add-to-cart" data-id="11" data-name="String of Pearls" data-price="22.99" data-image="images/string-of-pearls.jpg">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/snake-plant.jpg" alt="Haworthia">
+                            <h4>Haworthia</h4>
+                            <p>Small, striking succulent with striped leaves.</p>
+                            <p class="price">$11.99</p>
+                            <button class="add-to-cart" data-id="12" data-name="Haworthia" data-price="11.99" data-image="images/haworthia.jpg">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 GreenThumb. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/products.js"></script>
+</body>
+</html>
